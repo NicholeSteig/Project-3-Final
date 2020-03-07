@@ -24,7 +24,7 @@ if (process.env.NODE_ENV === "production") {
 //   console.log("MongoDB database connection established successfully");
 // })
 
-const exercisesRouter = require('./routes/exercises');
+const exercisesRouter = require('./routes/API/exercises');
 const usersRouter = require('./routes/users.js');
 
 app.use('/exercises', exercisesRouter);
